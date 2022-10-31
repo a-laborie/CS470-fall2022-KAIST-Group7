@@ -50,3 +50,5 @@ roslaunch open_manipulator_description open_manipulator_rviz.launch use_gui:=tru
 ```
 roslaunch open_manipulator_controllers joint_trajectory_controller.launch sim:=false
 ```
+[Moveit1 tutorial](https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html)
+[Moveit1 python commander](https://ros-planning.github.io/moveit_tutorials/doc/moveit_commander_scripting/moveit_commander_scripting_tutorial.html)
