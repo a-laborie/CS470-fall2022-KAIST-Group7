@@ -1,5 +1,5 @@
-[Tutorial link](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/quick_start_guide/)
-*Note: you should type each command-line in a new terminal*  
+[Tutorial link](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/quick_start_guide/)  
+Note: *you should type each command-line in a new terminal*  
 
 # 1. Before starting, be sure that :  
 * The robot is connected to your computer by USB  
