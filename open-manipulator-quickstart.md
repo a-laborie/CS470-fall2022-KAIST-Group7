@@ -34,6 +34,7 @@ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
 ```
 roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch
 ```
+The GUI program will start. First, click on *Timer Start*.
 Then, follow the [tutorial](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_operation/)
 
 
