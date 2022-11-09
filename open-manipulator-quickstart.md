@@ -42,7 +42,11 @@ Then, follow the [tutorial](https://emanual.robotis.com/docs/en/platform/openman
 ```
 realsense-viewer
 ```
-
+Note : to start the camera, follow [this tutorial](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_perceptions/#install-camera-package) replacing kinetic with noetic and xenial with focal. The GPG key is expired, so do this CL:
+```
+sudo sed -i 's/http:\/\/realsense-hw-public.s3.amazonaws.com/https:\/\/librealsense.intel.com/' /etc/apt/sources.list
+```
+Or follox this tutorial https://nu-msr.github.io/me495_site/ros1/realsense.html
 ## Start RViz
 ```
 roslaunch open_manipulator_description open_manipulator_rviz.launch use_gui:=true
@@ -53,3 +57,6 @@ roslaunch open_manipulator_controllers joint_trajectory_controller.launch sim:=f
 ```
 [Moveit1 tutorial](https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html)
 [Moveit1 python commander](https://ros-planning.github.io/moveit_tutorials/doc/moveit_commander_scripting/moveit_commander_scripting_tutorial.html)
+
+## Wonderful website 
+https://nu-msr.github.io/me495_site/#org151a041
