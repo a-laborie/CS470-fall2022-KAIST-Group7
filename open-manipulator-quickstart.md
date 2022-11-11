@@ -21,7 +21,10 @@ rosrun open_manipulator_controller create_udev_rules
 # roslaunch open_manipulator_controller open_manipulator_controller.launch is not working
 roslaunch open_manipulator_controller open_manipulator_controller.launch dynamixel_usb_port:=/dev/ttyUSB0
 ```
-If it fails, restart the process from roscore part.  
+If it fails, `ctrl+c` the second terminal and reissue 
+```
+roslaunch open_manipulator_controller open_manipulator_controller.launch dynamixel_usb_port:=/dev/ttyUSB0
+```
 
 # Other utilities
 ## Keyboard teleoperations 
@@ -38,7 +41,7 @@ The GUI program will start. First, click on *Timer Start*.
 Then, follow the [tutorial](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_operation/)
 
 
-## Start the camera (Intel realSense 2)
+# Start the camera (Intel realSense 2)
 ```
 realsense-viewer
 ```
@@ -46,7 +49,7 @@ Note : to start the camera, follow [this tutorial](https://emanual.robotis.com/d
 ```
 sudo sed -i 's/http:\/\/realsense-hw-public.s3.amazonaws.com/https:\/\/librealsense.intel.com/' /etc/apt/sources.list
 ```
-Or follox this tutorial https://nu-msr.github.io/me495_site/ros1/realsense.html
+Or follow this tutorial https://nu-msr.github.io/me495_site/ros1/realsense.html
 ## Start RViz
 ```
 roslaunch open_manipulator_description open_manipulator_rviz.launch use_gui:=true
