@@ -14,4 +14,6 @@ https://github.com/IntelRealSense/librealsense/issues/4449
 https://nu-msr.github.io/me495_site/ros1/lecture11_images.html  
 
 # MoveIt python
-https://nu-msr.github.io/me495_site/ros1/lecture18_moveit.html  
+* [Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html)
+* [Site with many ressources]([https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html](https://nu-msr.github.io/me495_site/ros1/lecture18_moveit.html)
+
