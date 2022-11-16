@@ -10,7 +10,7 @@ Note: *you should type each command-line in a new terminal*
 roscore
 ```
 
-# 3. Set the USB Latency Timer Setting (optionnal)
+# 3. Set the USB Latency Timer Setting (optionnal if you already runned it once)
 ```
 source ~/catkin_ws/devel/setup.bash
 rosrun open_manipulator_controller create_udev_rules
