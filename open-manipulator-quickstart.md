@@ -54,13 +54,17 @@ Or follow this tutorial https://nu-msr.github.io/me495_site/ros1/realsense.html
 ```
 roslaunch open_manipulator_description open_manipulator_rviz.launch use_gui:=true
 ```
-## Launch MoveIt
+## Use open manipulator with MoveIt
 ```
 roslaunch open_manipulator_controllers joint_trajectory_controller.launch sim:=false
 ```
-[Moveit install an setting up](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)
-[Moveit1 tutorial](https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html)
-[Moveit1 python commander](https://ros-planning.github.io/moveit_tutorials/doc/moveit_commander_scripting/moveit_commander_scripting_tutorial.html)
+OR 
+```
+roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit: = true
+```
+* [Moveit install an setting up on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)  
+* [Moveit1 tutorial on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html)  
+* [Moveit1 python commander on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/moveit_commander_scripting/moveit_commander_scripting_tutorial.html)  
 
 ## Wonderful website 
 https://nu-msr.github.io/me495_site/#org151a041
