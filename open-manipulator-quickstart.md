@@ -65,6 +65,9 @@ roslaunch open_manipulator_controller open_manipulator_controller.launch use_mov
 * [Moveit install an setting up on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)  
 * [Moveit1 tutorial on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html)  
 * [Moveit1 python commander on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/moveit_commander_scripting/moveit_commander_scripting_tutorial.html)  
-
+## Start the moveit confeditor
+```
+roslaunch moveit_setup_assistant setup_assistant.launch
+```
 ## Wonderful website 
 https://nu-msr.github.io/me495_site/#org151a041
