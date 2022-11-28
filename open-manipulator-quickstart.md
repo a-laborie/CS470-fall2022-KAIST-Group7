@@ -18,12 +18,11 @@ rosrun open_manipulator_controller create_udev_rules
 
 # 4. Launch controller
 ```
-# roslaunch open_manipulator_controller open_manipulator_controller.launch is not working
 roslaunch open_manipulator_controller open_manipulator_controller.launch dynamixel_usb_port:=/dev/ttyUSB0
 ```
-If it fails, `ctrl+c` the second terminal and reissue 
+if you want to start the controller with moveit enabled, do 
 ```
-roslaunch open_manipulator_controller open_manipulator_controller.launch dynamixel_usb_port:=/dev/ttyUSB0
+roslaunch open_manipulator_controllers joint_trajectory_controller.launch dynamixel_usb_port:=/dev/ttyUSB0 sim:=false
 ```
 
 # Other utilities
@@ -41,20 +40,12 @@ The GUI program will start. First, click on *Timer Start*.
 Then, follow the [tutorial](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_operation/)
 
 
-# Start the camera (Intel realSense 2)
-```
-realsense-viewer
-```
-Note : to start the camera, follow [this tutorial](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_perceptions/#install-camera-package) replacing kinetic with noetic and xenial with focal. The GPG key is expired, so do this CL:
-```
-sudo sed -i 's/http:\/\/realsense-hw-public.s3.amazonaws.com/https:\/\/librealsense.intel.com/' /etc/apt/sources.list
-```
-Or follow this tutorial https://nu-msr.github.io/me495_site/ros1/realsense.html
+
 ## Start RViz
 ```
 roslaunch open_manipulator_description open_manipulator_rviz.launch use_gui:=true
 ```
-## Use open manipulator with MoveIt
+## MoveIt links
 ```
 roslaunch open_manipulator_controllers joint_trajectory_controller.launch sim:=false
 ```
