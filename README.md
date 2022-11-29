@@ -1,6 +1,21 @@
 # Group10-CS470-fall2022
-Github repo for Group 10 of KAIST CS470 course (introduction to AI) working on an Open manipulator project
-
-* [Google doc for the video](https://docs.google.com/document/d/1hp1NisINJIgFNaiAkJvRho1ranmbxf5wzRKDvTMwa2Q/edit)
-* [Google slide for the video](https://docs.google.com/presentation/d/18DU-r2tWX85FebNvTuXtLxTWkNtcJBmknNGgx-CXJdE/edit#slide=id.g169d226d105_0_0)
-* [Google doc for the links](https://docs.google.com/document/d/1YUfcsgR-PBVhupp0Za4H6deiPnDQz1XMvMERs-sc050/edit)
+Github repo for Group 10 of KAIST CS470 course (introduction to AI) working on an application of the Open manipulator project sorting numbered objects into different boxes according to the number written on them.
+ 
+ 
+ # Installation
+ 
+ ## ROS and open-manipulator packages
+ Follow the steps detailed in [ROBOTIS' official tutorial]()
+ Don't forget to install Dynamixel :)
+ 
+ ## Python packages
+ ```
+ pip install pyrealsense2
+ pip install cv2
+ pip install 
+ pip install pillow
+ pip install skimage
+ ```
+ 
+ # Quickstart
+ * See [the quickstart guide](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/open-manipulator-quickstart.md)
