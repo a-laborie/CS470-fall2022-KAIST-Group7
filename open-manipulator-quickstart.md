@@ -17,15 +17,16 @@ rosrun open_manipulator_controller create_udev_rules
 ```
 
 # 4. Launch controller
+## Controller Open-manipulator with the keyboard or ROBOTIS' GUI
 ```
 roslaunch open_manipulator_controller open_manipulator_controller.launch dynamixel_usb_port:=/dev/ttyUSB0
 ```
-if you want to start the controller with moveit enabled, do 
+## With moveit enabled:
 ```
 roslaunch open_manipulator_controllers joint_trajectory_controller.launch dynamixel_usb_port:=/dev/ttyUSB0 sim:=false
 ```
 
-# Other utilities
+# 5. Other utilities
 ## Keyboard teleoperations 
 ```
 roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
@@ -39,20 +40,12 @@ roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch
 The GUI program will start. First, click on *Timer Start*.
 Then, follow the [tutorial](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_operation/)
 
-
-
 ## Start RViz
 ```
 roslaunch open_manipulator_description open_manipulator_rviz.launch use_gui:=true
 ```
 ## MoveIt links
-```
-roslaunch open_manipulator_controllers joint_trajectory_controller.launch sim:=false
-```
-OR 
-```
-roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit: = true
-```
+
 * [Moveit install an setting up on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)  
 * [Moveit1 tutorial on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html)  
 * [Moveit1 python commander on ROS website](https://ros-planning.github.io/moveit_tutorials/doc/moveit_commander_scripting/moveit_commander_scripting_tutorial.html)  
@@ -60,5 +53,4 @@ roslaunch open_manipulator_controller open_manipulator_controller.launch use_mov
 ```
 roslaunch moveit_setup_assistant setup_assistant.launch
 ```
-## Wonderful website 
-https://nu-msr.github.io/me495_site/#org151a041
+
