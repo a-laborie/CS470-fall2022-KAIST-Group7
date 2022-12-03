@@ -10,15 +10,14 @@ Github repo for Group 10 of KAIST CS470 course (introduction to AI) working on a
  
  ## Python packages
  ```
- pip install pyrealsense2
  pip install cv2
- pip install 
  pip install pillow
  pip install skimage
+ pip install torch
  ```
+ ## For the realsense camera, follow [this tutorial](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/doc/realsense-notice.md)  
  
  # Quickstart
-
  
  ## Before starting, be sure that :  
 * The robot is connected to your computer by USB    
