@@ -1,6 +1,6 @@
 # Group10-CS470-fall2022
 Github repo for Group 10 of KAIST CS470 course (introduction to AI) working on an application of the Open manipulator project sorting numbered objects into different boxes according to the number written on them.
- 
+ To do so, we used 
  
  # Installation (Ubuntu 20.04 required, probably does not work with a virtual machine)
  
