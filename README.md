@@ -45,5 +45,15 @@ Second terminal:
 ```
 roslaunch open_manipulator_controllers joint_trajectory_controller.launch dynamixel_usb_port:=/dev/ttyUSB0 sim:=false
 ```
- 
- For more info see [this guide](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/src/open-manipulator-quickstart.md)
+
+For more ROS launch info see [this guide](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/src/open-manipulator-quickstart.md)
+
+# Execute the main code
+
+Open the file oma_main.ipynb (located in src) with your favorite Python Notebook editor (VS code, Jupyter..). Beware, ROS is not installed by default on Google Collab.
+Then you can execute the cells step by step.
+Enjoy :)
+
+
+**If you face some issue during the process, do not hesitate to contact us at alexandre.laborie0@orange.fr**
+
