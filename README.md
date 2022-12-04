@@ -46,4 +46,4 @@ Second terminal:
 roslaunch open_manipulator_controllers joint_trajectory_controller.launch dynamixel_usb_port:=/dev/ttyUSB0 sim:=false
 ```
  
- For more info see [the quickstart guide](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/open-manipulator-quickstart.md)
+ For more info see [this guide](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/src/open-manipulator-quickstart.md)
