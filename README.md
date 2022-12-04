@@ -2,7 +2,8 @@
 Github repo for Group 10 of KAIST CS470 course (introduction to AI) working on an application of the Open manipulator project sorting numbered objects into different boxes according to the number written on them.
  To do so, we used 
  
- # Installation (Ubuntu 20.04 required, probably does not work with a virtual machine)
+ # Installation 
+ **(Ubuntu 20.04 required, probably does not work with a virtual machine)**
  
  ## ROS and open-manipulator packages
  Follow the steps detailed in [ROBOTIS' official tutorial]()
@@ -15,7 +16,8 @@ Github repo for Group 10 of KAIST CS470 course (introduction to AI) working on a
  pip install skimage
  pip install torch
  ```
- ## For the realsense camera, follow [this tutorial](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/doc/realsense-notice.md)  
+ ## Realsense camera
+ * Follow [this tutorial](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/doc/realsense-notice.md)  
  
  # Quickstart
  
@@ -30,7 +32,8 @@ First terminal :
 roscore
 ```
 
-# 3. Set the USB Latency Timer Setting (only if it is the firs time running the project since you restarted your laptop)
+# 3. Set the USB Latency Timer Setting 
+(only if it is the firs time running the project since you restarted your laptop)
 Second terminal:  
 ```
 source ~/catkin_ws/devel/setup.bash
