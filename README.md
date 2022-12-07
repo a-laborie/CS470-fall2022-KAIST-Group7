@@ -4,7 +4,7 @@ Github repo for Group 7 of KAIST CS470 course (Introduction to AI) working on an
 You can have an idea of what was the aim of our project in [the project poster](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/doc/Team_7_poster_file.pdf).
  
  # Installation 
- **(Ubuntu 20.04 required, probably does not work with a virtual machine)**
+ **(Ubuntu 20.04 required, very liekly not to work with a virtual machine)**
  
  ## ROS and open-manipulator packages
  Follow the steps detailed in [ROBOTIS' official tutorial]()
