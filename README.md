@@ -17,6 +17,7 @@ You can have an idea of what was the aim of our project in [the project poster](
  pip install skimage
  pip install torch
  ```
+ In case you still get an error from a missing library, just install it
  ## Realsense camera
  * Follow [this tutorial](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/doc/realsense-notice.md)  
  
