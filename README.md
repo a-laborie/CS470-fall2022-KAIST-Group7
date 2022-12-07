@@ -26,7 +26,7 @@ You can have an idea of what was the aim of our project in [the project poster](
  ## Before starting, be sure that :  
 * The robot is connected to your computer by USB    
 * Check that the robot is powered
-* Make sure the robot is in a valid position before starting. An example for a pose (without the blue box, gripper on the ground, you can find [here](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/maxresdefault.jpg) 
+* Make sure the robot is in a valid position before starting. An example for a pose (without the blue box, with gripper on the ground) you can find [here](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/maxresdefault.jpg) 
 
 open two terminals.  
 # Launch Roscore
