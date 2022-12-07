@@ -7,7 +7,7 @@ You can have an idea of what was the aim of our project in [the project poster](
  **(Ubuntu 20.04 required, very likely not to work with a virtual machine)**
  
  ## ROS and open-manipulator packages
- Follow the steps detailed in [ROBOTIS' official tutorial]()
+ Follow the steps detailed in [ROBOTIS' official tutorial](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/quick_start_guide/)
  Don't forget to [install Dynamixel](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/#software-installation) :) 
  
  ## Python packages
