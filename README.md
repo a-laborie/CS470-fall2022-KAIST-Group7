@@ -25,7 +25,8 @@ You can have an idea of what was the aim of our project in [the project poster](
  
  ## Before starting, be sure that :  
 * The robot is connected to your computer by USB    
-* Check that the robot is powered    
+* Check that the robot is powered
+* Make sure the robot is in a valid position before starting. Here is an example picture:  
 
 open two terminals.  
 # Launch Roscore
