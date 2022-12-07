@@ -49,7 +49,7 @@ Second terminal:
 roslaunch open_manipulator_controllers joint_trajectory_controller.launch dynamixel_usb_port:=/dev/ttyUSB0 sim:=false
 ```
 
-For more ROS launch info see [this guide](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/src/open-manipulator-quickstart.md)
+For more ROS launch info see [this guide](https://github.com/a-laborie/Group10-CS470-fall2022/blob/main/doc/open-manipulator-quickstart.md)
 
 # Execute the main code
 
