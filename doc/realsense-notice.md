@@ -14,12 +14,12 @@ Recompile your catkin environment:
 ```
 cd ~/catkin_ws/src
 git clone https://github.com/intel-ros/realsense.git
- cd ~/catkin_ws && catkin_make
+cd ~/catkin_ws && catkin_make
 ```
 
 Install python package:  
 ```
- pip install pyrealsense2
+pip install pyrealsense2
 ```
 You can try the camera with  
 ```
